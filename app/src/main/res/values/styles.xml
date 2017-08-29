@@ -1,0 +1,118 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+
+    <style name="AppTheme.DotStepper">
+        <item name="ms_stepperStyle">@style/DotStepperStyle</item>
+    </style>
+
+    <style name="AppThemeDark" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/darkColorPrimary</item>
+        <item name="colorPrimaryDark">@color/darkColorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="ms_stepperStyle">@style/CustomStepperLayoutThemeSample</item>
+        <item name="ms_showErrorState">true</item>
+    </style>
+
+    <style name="DotStepperStyle">
+        <item name="ms_stepperType">dots</item>
+        <item name="ms_activeStepColor">#FFFFFF</item>
+        <item name="ms_inactiveStepColor">#006867</item>
+        <item name="ms_backButtonColor">@color/ms_custom_button_text_color</item>
+        <item name="ms_nextButtonColor">@color/ms_custom_button_text_color</item>
+        <item name="ms_errorColor">@color/ms_errorColor</item>
+        <item name="ms_completeButtonColor">@color/ms_custom_button_text_color</item>
+        <item name="ms_bottomNavigationBackground">?attr/colorAccent</item>
+    </style>
+
+    <style name="CustomStepperLayoutThemeSample">
+        <item name="ms_stepperType">tabs</item>
+        <item name="ms_stepperLayoutTheme">@style/DarkCustomStepperLayoutTheme</item>
+        <item name="ms_activeStepColor">#006867</item>
+        <item name="ms_inactiveStepColor">#62807f</item>
+    </style>
+
+    <style name="DarkCustomStepperLayoutTheme" parent="MSDefaultStepperLayoutTheme">
+        <item name="ms_bottomNavigationStyle">@style/DarkBottomNavigationStyle</item>
+        <item name="ms_tabsContainerStyle">@style/DarkStepTabsContainerStyle</item>
+        <item name="ms_stepTabTitleStyle">@style/DarkStepTabTitleStyle</item>
+        <item name="ms_stepTabSubtitleStyle">@style/DarkStepTabSubtitleStyle</item>
+        <item name="ms_backNavigationButtonStyle">@style/CustomBackButtonStyle</item>
+        <item name="ms_nextNavigationButtonStyle">@style/CustomNextButtonStyle</item>
+        <item name="ms_completeNavigationButtonStyle">@style/CustomCompleteButtonStyle</item>
+    </style>
+
+    <style name="StepperLayoutThemeWithCenteredCompleteButton" parent="MSDefaultStepperLayoutTheme">
+        <item name="ms_completeNavigationButtonStyle">@style/CenteredCompleteButtonStyle</item>
+    </style>
+
+    <style name="CustomBottomNavigationStyle" parent="MSBottomNavigation">
+        <item name="android:layout_height">40dp</item>
+    </style>
+
+    <style name="CustomBackButtonStyle" parent="MSNavBarButton.Back">
+
+    </style>
+
+    <style name="CustomNextButtonStyle" parent="MSNavBarButton.Next">
+
+    </style>
+
+    <style name="CustomCompleteButtonStyle" parent="MSNavBarButton.Complete">
+
+    </style>
+
+    <style name="CenteredCompleteButtonStyle" parent="MSNavBarButton.Complete">
+
+    </style>
+
+    <style name="DarkBottomNavigationStyle" parent="MSBottomNavigation">
+        <item name="android:background">@color/darkColorPrimary</item>
+    </style>
+
+    <style name="DarkStepTabsContainerStyle" parent="MSStepTabsContainer">
+        <item name="android:background">@color/darkColorPrimary</item>
+    </style>
+
+    <style name="DarkStepTabTitleStyle" parent="MSStepTabTitle">
+        <item name="android:textColor">@color/ms_white</item>
+
+    </style>
+
+    <style name="DarkStepTabSubtitleStyle" parent="MSStepTabSubtitle">
+        <item name="android:textColor">@color/ms_white_54_opacity</item>
+
+    </style>
+
+    <style name="MainCoordinatorLayoutStyle" />
+
+    <style name="MainAppBarLayoutStyle">
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="MainToolbarStyle">
+        <item name="layout_collapseMode">none</item>
+    </style>
+
+    <style name="MainListStyle">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.aimn.materialdesign">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".stepper.StepMain"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".stepper.DefaultDotsActivity" />
+        <activity android:name=".stepper.StyledDotsActivity" />
+        <activity
+            android:name=".stepper.ThemedDotsActivity"
+            android:theme="@style/AppTheme.DotStepper" />
+        <activity android:name=".stepper.DefaultProgressBarActivity" />
+        <activity android:name=".stepper.StyledProgressBarActivity" />
+        <activity android:name=".stepper.DefaultTabsActivity" />
+        <activity android:name=".stepper.StyledTabsActivity" />
+        <activity android:name=".stepper.DefaultNoneActivity" />
+        <activity android:name=".stepper.ShowErrorOnBackTabActivity" />
+        <activity android:name=".stepper.ShowErrorTabActivity" />
+        <activity android:name=".stepper.ShowErrorCustomColorTabActivity" />
+        <activity android:name=".stepper.ShowErrorWithMessageTabActivity" />
+        <activity android:name=".stepper.CombinationActivity" />
+        <activity android:name=".stepper.CustomPageTransformerActivity" />
+        <activity android:name=".stepper.DelayedTransitionStepperActivity" />
+        <activity android:name=".stepper.StepperFeedbackActivity" />
+        <activity android:name=".stepper.CustomNavigationButtonsActivity" />
+        <activity android:name=".stepper.ReturnButtonActivity" />
+        <activity android:name=".stepper.NoFragmentsActivity" />
+        <activity android:name=".stepper.ProceedProgrammaticallyActivity"
+            android:windowSoftInputMode="stateVisible"/>
+        <activity android:name=".stepper.PassDataBetweenStepsActivity"
+            android:windowSoftInputMode="stateVisible"/>
+        <activity android:name=".stepper.DisabledTabNavigationActivity" />
+        <activity android:name=".stepper.HiddenBottomNavigationActivity" />
+        <activity
+            android:name=".stepper.CustomStepperLayoutThemeActivity"
+            android:theme="@style/AppThemeDark" />
+    </application>
+
+</manifest>

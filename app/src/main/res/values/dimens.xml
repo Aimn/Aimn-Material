@@ -1,0 +1,59 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="text_appbar">20sp</dimen>
+    <dimen name="text_button">15sp</dimen>
+    <dimen name="text_subhead">17sp</dimen>
+    <dimen name="text_body">15sp</dimen>
+    <dimen name="text_title">20sp</dimen>
+    <dimen name="text_head">24sp</dimen>
+    <dimen name="text_display1">34sp</dimen>
+
+    <dimen name="padding_titletobody">32dp</dimen>
+    <dimen name="padding_subheadtobody">28dp</dimen>
+    <dimen name="padding_left">16dp</dimen>
+    <dimen name="padding_right">16dp</dimen>
+    <dimen name="padding_list_item">8dp</dimen>
+    <dimen name="padding_content_areas">8dp</dimen>
+    <dimen name="padding_dialog_buttontobuttom">8dp</dimen>
+
+    <dimen name="width_menu">72dp</dimen>
+    <dimen name="width_button">48dp</dimen>
+    <dimen name="width_navigation_icon">24dp</dimen>
+    <dimen name="width_floatbutton_icon">24dp</dimen>
+
+    <dimen name="height_statusbar">24dp</dimen>
+    <dimen name="height_toolbar">56dp</dimen>
+    <dimen name="height_sub_title">48dp</dimen>
+    <dimen name="height_list_item">64dp</dimen>
+    <dimen name="height_button">36dp</dimen>
+    <dimen name="height_navigation">56dp</dimen>
+    <dimen name="height_navigation_icon">24dp</dimen>
+    <dimen name="height_dialog_button">36dp</dimen>
+    <dimen name="height_dialog_touch_areas">48dp</dimen>
+    <dimen name="height_floatbutton_icon">24dp</dimen>
+    <dimen name="height_indicator">2dp</dimen>
+    <dimen name="height_thickness">1dp</dimen>
+
+    <dimen name="item_avatar">40dp</dimen>
+    <dimen name="item_icon">24dp</dimen>
+    <dimen name="item_touch_area">48dp</dimen>
+    <dimen name="item_button_radius">2dp</dimen>
+    <dimen name="item_card_radius">2dp</dimen>
+
+    <dimen name="pad_padding_left">24dp</dimen>
+    <dimen name="pad_padding_right">24dp</dimen>
+    <dimen name="pad_width_menu">80dp</dimen>
+    <dimen name="pad_height_statusbar">24dp</dimen>
+    <dimen name="pad_height_list_item">72dp</dimen>
+    <dimen name="pad_height_title">72dp</dimen>
+    <dimen name="pad_padding_list_item">8dp</dimen>
+    <dimen name="pad_padding_content_areas">8dp</dimen>
+
+    <dimen name="max_main_list_width">480dp</dimen>
+</resources>

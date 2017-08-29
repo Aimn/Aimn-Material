@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="88dp">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            app:fabSize="mini"
+            android:layout_marginLeft="@dimen/padding_left"
+            />
+
+        <Button
+        android:id="@+id/dialogShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Button"
+            android:layout_marginLeft="@dimen/padding_left"
+            />
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:text="Button"
+            android:layout_marginLeft="@dimen/padding_left"
+            />
+
+    </LinearLayout>
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="144dp"
+    android:layout_marginTop="@dimen/pad_padding_content_areas"
+    android:layout_marginLeft="@dimen/padding_left"
+    android:layout_marginRight="@dimen/padding_right"
+    android:foreground="?attr/selectableItemBackground"
+    android:clickable="true"
+
+    >
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Label"
+
+        >
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textSize="14sp"
+
+            />
+    </android.support.design.widget.TextInputLayout>
+</android.support.v7.widget.CardView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/pad_padding_content_areas"
+        android:layout_marginLeft="@dimen/padding_left"
+        android:layout_marginRight="@dimen/padding_right"
+        >
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="RadioButton" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CheckBox" />
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Switch" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/pad_padding_content_areas"
+        android:layout_marginLeft="@dimen/padding_left"
+        android:layout_marginRight="@dimen/padding_right"
+        >
+
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <SeekBar
+            android:id="@+id/seekBar4"
+            style="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:max="10"
+            android:progress="3" />
+
+        <SeekBar
+            android:id="@+id/seekBar3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/pad_padding_content_areas"
+        android:layout_marginLeft="@dimen/padding_left"
+        android:layout_marginRight="@dimen/padding_right"/>
+
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/pad_padding_content_areas"
+        android:layout_marginLeft="@dimen/padding_left"
+        android:layout_marginRight="@dimen/padding_right"/>
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/pad_padding_content_areas"
+        android:layout_marginLeft="@dimen/padding_left"
+        android:layout_marginRight="@dimen/padding_right"/>
+
+    <Chronometer
+        android:id="@+id/chronometer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/pad_padding_content_areas"
+        android:layout_marginLeft="@dimen/padding_left"
+        android:layout_marginRight="@dimen/padding_right"/>
+
+    <TextClock
+        android:id="@+id/textClock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/pad_padding_content_areas"
+        android:layout_marginLeft="@dimen/padding_left"
+        android:layout_marginRight="@dimen/padding_right"/>
+</LinearLayout>
+</ScrollView>

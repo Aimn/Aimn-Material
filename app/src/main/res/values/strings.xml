@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Aimn-MaterialDesign</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="default_dots">Default dots</string>
+    <string name="styled_dots">Styled dots</string>
+    <string name="themed_dots">Themed dots</string>
+    <string name="default_progress_bar">Default progress bar</string>
+    <string name="styled_progress_bar">Styled progress bar</string>
+    <string name="default_none">Default \'none\'</string>
+    <string name="default_tabs">Default tabs</string>
+    <string name="styled_tabs">Styled tabs</string>
+    <string name="error_tabs">Show errors on tabs</string>
+    <string name="error_color_tabs">Custom color error tabs</string>
+    <string name="error_back_tabs">Keep error back tabs</string>
+    <string name="error_with_message_tabs">Show errors on tabs with a message</string>
+    <string name="combination">Dots in portrait, tabs in landscape</string>
+    <string name="custom_page_transformer">Custom PageTransformer</string>
+    <string name="delayed_transition">Delayed transition</string>
+    <string name="stepper_feedback">Stepper feedback</string>
+    <string name="custom_navigation_buttons">Custom navigation buttons</string>
+    <string name="show_back_button">Show Back button on first step</string>
+    <string name="no_fragments">No Fragment Stepper</string>
+    <string name="proceed_programmatically">Proceed programmatically</string>
+    <string name="passing_data_between_steps">Passing data between steps</string>
+    <string name="disabled_tab_navigation">Disabled tab navigation</string>
+    <string name="hidden_bottom_navigation">Hidden bottom navigation</string>
+    <string name="custom_stepperlayout_theme">Custom StepperLayout theme</string>
+
+    <string name="default_dots_description">The default implementation of a dotted stepper</string>
+    <string name="styled_dots_description">Dotted stepper styled through view attributes in the layout file</string>
+    <string name="themed_dots_description">Dotted stepper styled through view attributes set in Activity theme</string>
+    <string name="default_progress_bar_description">The default implementation of a stepper with a horizontal progress bar</string>
+    <string name="styled_progress_bar_description">Horizontal progress bar stepper styled through view attributes in the layout file</string>
+    <string name="default_tabs_description">The default implementation of a tabbed stepper</string>
+    <string name="styled_tabs_description">Tabbed stepper styled through view attributes in the layout file</string>
+    <string name="default_none_description">The default implementation of a stepper without any particular current step indication</string>
+    <string name="error_tabs_description">Tabbed stepper which also shows an error on a tab when it occurs</string>
+    <string name="error_color_tabs_description">Tabbed stepper which also shows an error on a tab when it occurs with a custom error color</string>
+    <string name="error_back_tabs_description">Tabbed stepper which also shows an error on a tab when it occurs and keeps it displayed when going to a previous step</string>
+    <string name="error_with_message_tabs_description">Tabbed stepper which also shows an error on a tab with error message below step title when it occurs</string>
+    <string name="combination_description">Shows a dotted stepper when the device is in portrait mode and tabs when in landscape</string>
+    <string name="custom_page_transformer_description">Shows how to use a custom PageTransformer when switching between steps</string>
+    <string name="delayed_transition_description">Shows how to use a BlockingStep for long-running operations when going to next steps.</string>
+    <string name="stepper_feedback_description">Stepper feedback sample for long running operations. Different feedback types can be selected.</string>
+    <string name="custom_navigation_buttons_description">Shows how to set different labels and icons for the bottom navigation buttons.</string>
+    <string name="show_back_button_description">Show how to display a Back button on the first step of the stepper layout.</string>
+    <string name="no_fragments_description">StepperLayout used with pure Views instead of Fragments</string>
+    <string name="proceed_programmatically_description">Shows how to navigate to the next steps without clicking on the bottom navigation buttons</string>
+    <string name="passing_data_between_steps_description">Shows how to pass data from one fragment to the next by using parent Activity</string>
+    <string name="disabled_tab_navigation_description">Shows how to disable clicking on tabs in a tabbed stepper</string>
+    <string name="hidden_bottom_navigation_description">Shows how to hide bottom navigation</string>
+    <string name="custom_stepperlayout_theme_description">Shows a styled stepper layout with custom fonts &amp; colors</string>
+
+    <string name="tab_title">Tab title</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, sale viris intellegam usu eu, persius patrioque sea at. Ne salutandi repudiandae mei, cu mollis accusam mediocrem mea. Altera dolorem praesent at vis. Torquatos philosophia ad quo. Omnis adipiscing has ea, mel no hinc iudico percipit.</string>
+    <string name="lorem_ipsum2">Lorem ipsum dolor sit amet, sale viris intellegam usu eu, persius patrioque sea at. Ne salutandi repudiandae mei, cu mollis accusam mediocrem mea. Altera dolorem praesent at vis. Torquatos philosophia ad quo. Omnis adipiscing has ea, mel no hinc iudico percipit.</string>
+    <string name="lorem_ipsum3">Antiopam consetetur mel in. Urbanitas constituto persequeris ex ius, sed ei elitr ridens temporibus. Ex probo lorem etiam sea, ut meliore electram scripserit vim. Et dicunt facilisis his, tamquam postulant mei te. Eum ei aperiri labitur eripuit, ut sit autem pertinax.</string>
+    <string name="enter_password">Enter password…</string>
+    <string name="clickable_element">Clickable element</string>
+
+    <string name="go_to_summary">Summary</string>
+    <string name="operation_succeed_switch_message">Should operation succeed?</string>
+</resources>
